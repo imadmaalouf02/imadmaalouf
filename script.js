@@ -1,3 +1,15 @@
+// ===== Profile Age =====
+const ageItem = document.getElementById('profileAge');
+if (ageItem) {
+    const today = new Date();
+    const birthDate = new Date(2002, 10, 12);
+    const birthdayThisYear = new Date(today.getFullYear(), birthDate.getMonth(), birthDate.getDate());
+    const age = today.getFullYear() - birthDate.getFullYear() - (today < birthdayThisYear ? 1 : 0);
+
+    ageItem.querySelector('span').textContent = `${age} ans`;
+    ageItem.style.removeProperty('display');
+}
+
 // ===== Theme Toggle =====
 const themeToggle = document.getElementById('themeToggle');
 const htmlElement = document.documentElement;
