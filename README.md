@@ -1,5 +1,7 @@
 # Imad Maalouf
 
+**CV en ligne** - [Voir le CV sur Netlify](https://imadmaalouf.netlify.app/)
+
 Ingénieur d’État en intelligence artificielle et data science et doctorant à l’ENSAM Meknès
 
 - **Email:** imadmaalouf02@gmail.com
